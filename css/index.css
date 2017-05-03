@@ -1,0 +1,16 @@
+h1 {
+	text-align: center;
+}
+
+h1, h2 {
+	font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+#intro {
+	margin: 0 auto;
+	width: 600px;
+}
+
+#intro p {
+	font-family: "Helvetica", "Arial", sans-serif;
+}

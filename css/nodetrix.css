@@ -1,0 +1,152 @@
+#nodetrix {
+	margin: 50px 0 50px 0;
+	font-family: Arial, Verdana, Tahoma;
+}
+
+#leftDiv, #panel, #rightDiv {
+	float: left;
+}
+
+.clear {
+	clear:both;
+}
+
+#leftCanvas, #rightCanvas {
+	display: block;
+}
+
+#groupLabel1, #groupLabel2 {
+	display: block;
+	text-align: center;
+}
+
+#canvas {
+	display: block;
+	margin: 0 auto;
+}
+
+#leftTitle, #rightTitle {
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-size:24px;
+}
+
+#leftTitle {
+	margin-left: 250px;  	
+}
+
+#rightTitle {
+	margin-left: 500px;
+}
+
+#panel {
+	margin-top: 80px;
+	width: 250px;
+	border: 1px solid #000;
+	padding: 0 10px 0 10px;
+}
+
+.panelBox {
+	margin: 25px 5px 25px 5px;
+}
+
+.panelLabel {
+	margin: 5px 0 3px 0;
+}
+
+rect.selected {
+	stroke: #00d!important;
+}
+
+.hide {
+	display: none;
+}
+
+.focused {
+	display: inline!important;
+}
+
+select {
+	background-color: #ffe1e6;
+	border-radius: 8px;
+	outline: none;
+}
+
+.disabledSel {
+	background-color: #c3c3c3;
+}
+
+.btn {
+	cursor: pointer;
+	border-width: 0px;
+	padding: 8px;
+	outline: none;
+	border-radius: 15px;
+	margin-right: 10px;
+	background-color: #c3c3c3;
+}
+
+.true-btn {
+	background-color: #ffe1e6;
+}
+
+/*slider*/
+
+#slider, #kSlider {
+	margin: 9px;
+}
+
+#slider {
+	background-color: #ffffff;
+}
+
+.ui-slider-horizontal {
+	height: 2px;
+}
+
+#slider span, #kSlider span {
+	height: 0.8em;
+	width: 0.8em;
+	top: -.4em;
+	border-radius: 20px;
+	outline-width: 0;
+}
+
+#leftSpan, #kSlider span, #slider span {
+	background: #ffffff;
+}
+
+#rightSpan {
+	background: #ff0000 !important;
+}
+
+
+#sliderRange { /*渐变*/
+	background: white; /* 为较旧的或者不支持的浏览器设置备用属性 */  
+    background: -moz-linear-gradient(left, white, red);  
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(red)); 
+}
+
+#slider .ui-state-hover, #slider .ui-state-focus {
+	border: 1px solid #ddd;
+}
+#kSlider .ui-state-hover, #kSlider .ui-state-focus {
+	border: 1px solid #ddd;
+}
+
+#redDiv {
+	background: red;
+	height: 100%;
+	float: right;
+}
+
+#binSelector {
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
